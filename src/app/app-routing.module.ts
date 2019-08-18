@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainComponent } from './main/main.component';
 
 const routes: Routes = [
-  { path: '', component: MainComponent }
+  { path: '', loadChildren: './main/main.module#MainModule' },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
