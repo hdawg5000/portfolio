@@ -1,13 +1,25 @@
-.main {
-    .card {
-        .header {
-            margin: 2.5rem;
-        }
-
-        margin: 1.5rem;
-
-        .card-content {
-            margin: 1.5rem;
-        }
+.container {
+  .header {
+    margin: 2.5rem;
+    border-bottom: 2px solid #ebebeb;
+    img {
+      width: 130px;
     }
+    .title {
+      margin-left: 30px;
+    }
+    .title,
+    img {
+      display: inline-block;
+    }
+  }
+  .main {
+    .card {
+      margin: 1.5rem;
+
+      .card-content {
+        margin: 1.5rem;
+      }
+    }
+  }
 }
